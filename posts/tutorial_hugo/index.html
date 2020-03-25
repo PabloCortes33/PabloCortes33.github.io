@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="" dir="ltr">
+  <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Tutorial Hugo - Instalación &#43; Implementación de Tema &middot; Portafolio - Pablo Cortés</title>
+  <meta name="description" content="Video tutorial de la instalación de componentes y pasos de instalación de temas personalizados" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.10.0/dist/katex.min.css" integrity="sha384-9eLZqc9ds8eNjO3TmqPeYcDj8n+Qfa4nuSiGYa6DjLNcv9BtN69ZIulL9+8CqC9Y" crossorigin="anonymous">
+  
+  
+  
+  
+  
+  <link href="/css/concated.min.css" rel="stylesheet">
+  
+  <style>
+    body {
+      background: #ecedef url("/img/ignasi_pattern_s.png") repeat;
+    }
+  </style>
+</head>
+
+  <body class="single-body">
+    <nav class="nav-bar side-padding">
+  <h1 class="nav-header"><a href="/" class="nav-text">Pablo Cortés</a></h1>
+  <div class="hamburger-menu">
+    <button onclick="hamburgerMenuPressed.call(this)" aria-haspopup="true" aria-expanded="false" aria-controls="menu" aria-label="Menu">
+      <span></span>
+      <span></span>
+    </button>
+    <ul id="menu" class="hamburger-menu-overlay">
+      <li><a href="/" class="hamburger-menu-overlay-link">Home</a></li>
+      <li><a href="/about/" class="hamburger-menu-overlay-link">About</a></li>
+      
+      <li><a href="/categories/hugo/" class="hamburger-menu-overlay-link">Hugo</a></li>
+      
+      <li><a href="/categories/luz-dinamica-volumen/" class="hamburger-menu-overlay-link">Luz Dinamica - Volumen</a></li>
+      
+      <li><a href="/categories/luz-y-sombra/" class="hamburger-menu-overlay-link">Luz y Sombra</a></li>
+      
+      
+    </ul>
+  </div>
+</nav>
+
+    <main class="content side-text-padding">
+      <article class="post ">
+        <header class="post-header">
+          <h1 class="post-title">Tutorial Hugo - Instalación &#43; Implementación de Tema</h1>
+          <p class="post-date">Posted <time datetime="2020-03-24">Mar 24, 2020</time></p>
+        </header>
+        <picture class="post-figure">
+          
+          
+          <source srcset="/posts/tutorial_hugo/logo_hugo_hu606b92a81739dc864535f8299a11aee4_134526_800x0_resize_lanczos_2.png">
+          <img src="/posts/tutorial_hugo/logo_hugo_hu606b92a81739dc864535f8299a11aee4_134526_800x0_resize_lanczos_2.png" >
+        </picture>
+        
+        <h3 id="video-tutorial">Video Tutorial</h3>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/qUHQyd2TeGs" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+<h3 id="paso-1-descargas">Paso 1: Descargas</h3>
+<p>Descargar archivos de Hugo: <a href="https://github.com/gohugoio/hugo/releases">https://github.com/gohugoio/hugo/releases</a></p>
+<p>Descargar tema personalizable: <a href="https://themes.gohugo.io/aether/">https://themes.gohugo.io/aether/</a></p>
+<h3 id="paso-2">Paso 2:</h3>
+<ul>
+<li>Crear una carpeta llamada &ldquo;Hugo&rdquo; en el escritorio.</li>
+<li>Dentro de la carpeta crear una nueva carpeta llamda &ldquo;bin&rdquo; y otra &ldquo;sites&rdquo;.</li>
+<li>Abrir el .zip descargado de la pagina de Hugo.</li>
+<li>Descomprimir los archivos de la descarga de Hugo Framework en la nueva carpeta &ldquo;bin&rdquo;. (El directorio debe ser C:\Users\Pablito\Desktop\Hugo\bin)</li>
+</ul>
+<h3 id="paso-3">Paso 3:</h3>
+<ul>
+<li>Abrir CommandPrompt desde el buscador.</li>
+<li>Usar el comando  &ldquo;cd C:\Users\Pablito\Desktop\Hugo\sites&rdquo;.</li>
+<li>Luego usar el comando &ldquo;hugo new site &ldquo;nombredelsitio&rdquo;. Esto creará una nueva carpeta dentro de sites con el nombre que fue elegido.</li>
+</ul>
+<h3 id="paso-4">Paso 4:</h3>
+<ul>
+<li>Abrir el archivo descargado del tema personalizado.</li>
+<li>Descomprimir el archivo dentro de la carpeta &ldquo;themes&rdquo; que se encuetra en la nueva carpeta del sitio creada (C:\Users\Pablito\Desktop\Hugo\sites\nombredelsitio\themes)</li>
+<li>Cambiar el nombre de la carpeta de &ldquo;aether-master&rdquo; a &ldquo;aether&rdquo;.</li>
+<li>Abrir la carpeta &ldquo;aether&rdquo; e ir a la carpeta llamada &ldquo;exampleSite&rdquo;.</li>
+<li>Copiar los archivos que se encuentran dentro de la carpeta &ldquo;exampleSite&rdquo; y pegarlos en &ldquo;C:\Users\Pablito\Desktop\Hugo\sites\nombredelsitio&rdquo;, aceptar reemplazar.</li>
+</ul>
+<h3 id="paso-5">Paso 5:</h3>
+<ul>
+<li>Dentro del CommandPrompt digitar &ldquo;hugo server&rdquo;.</li>
+<li>La pantalla debería mostrar el siguiente código:</li>
+</ul>
+<p>Building sites …
+| EN
+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+&mdash;&ndash;
+Pages            | 35
+Paginator pages  |  7
+Non-page files   |  6
+Static files     | 75
+Processed images | 13
+Aliases          | 14
+Sitemaps         |  1
+Cleaned          |  0</p>
+<p>Built in 171 ms
+Watching for changes in C:\Users\Pablito\Desktop\Taller Integrado\Paginas Web\Hugo\sites\Implementacion_Tema{archetypes,content,data,layouts,static,themes}
+Watching for config changes in C:\Users\Pablito\Desktop\Taller Integrado\Paginas Web\Hugo\sites\Implementacion_Tema\config.toml
+Environment: &ldquo;development&rdquo;
+Serving pages from memory
+Running in Fast Render Mode. For full rebuilds on change: hugo server &ndash;disableFastRender
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Press Ctrl+C to stop</p>
+<ul>
+<li>En la penúltima línea muestra &ldquo;Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)&rdquo;</li>
+<li>El link a la página creada es &ldquo;http://localhost:1313/&rdquo;</li>
+<li>Ingresar el link en tu buscador predeterminado y estará tu nueva página web.</li>
+</ul>
+
+      </article>
+      
+    </main>
+    <nav class="end-nav side-padding">
+      
+      <a ontouchstart="cardPressed.call(this)" ontouchend="cardReleased.call(this)" ontouchmove="cardReleased.call(this)" 
+  href="/posts/textura/" class="card blog-card" rel="bookmark" >
+  
+  <div class="card-img-container">
+    <p class="card-img-overlay">Next Article</p>
+    <picture>
+      
+      <source srcset="/posts/textura/Foto2.jpg">
+      <img src="/posts/textura/Foto2.jpg" class="card-img" >
+    </picture>
+  </div>
+  
+  <article class="card-body">
+    <h2 class="card-title">Textura</h2>
+    <p class="card-text">Producción de escalas de grises con papeles de distinto gramaje y opacidad.</p>
+    <div class="card-subtext muted-text">
+      <p>Posted <time datetime="2020-03-22 322:00">Mar 22, 2020</time></p>
+      <p>#Luz y Sombra </p>
+    </div>
+  </article>
+</a>
+      
+      <a ontouchstart="cardPressed.call(this)" ontouchend="cardReleased.call(this)" ontouchmove="cardReleased.call(this)" 
+  href="/" class="card home-card" style="background-image: url( /img/grey-cloud.jpg )" rel="bookmark" >
+  Home
+</a>
+    </nav>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.0/dist/katex.min.js" integrity="sha384-K3vbOmF2BtaVai+Qk37uypf7VrgBubhQreNQe9aGsz9lB63dIFiQVlJbr92dw2Lx" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.0/dist/contrib/auto-render.min.js" integrity="sha384-kmZOZB5ObwgQnS/DuDg6TScgOiWWBiVt0plIRkZCmE6rDZGrEOQeHM5PcHi+nyqe" crossorigin="anonymous"
+    onload="renderMathInElement(document.body);"></script>
+  
+  <script src="/js/core.min.js"></script>
+
+  </body>
+</html>

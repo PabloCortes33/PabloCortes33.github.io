@@ -1,0 +1,34 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories - Portafolio - Pablo Cortés</title>
+    <link>/categories/</link>
+    <description>Recent content in Categories on Portafolio - Pablo Cortés</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 24 Mar 2020 19:58:44 -0300</lastBuildDate>
+    
+        <atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Luz Dinamica - Volumen</title>
+      <link>/categories/luz-dinamica-volumen/</link>
+      <pubDate>Tue, 24 Mar 2020 19:58:44 -0300</pubDate>
+      
+      <guid>/categories/luz-dinamica-volumen/</guid>
+      <description></description>
+    </item><item>
+      <title>Hugo</title>
+      <link>/categories/hugo/</link>
+      <pubDate>Tue, 24 Mar 2020 16:05:05 -0300</pubDate>
+      
+      <guid>/categories/hugo/</guid>
+      <description></description>
+    </item><item>
+      <title>Luz y Sombra</title>
+      <link>/categories/luz-y-sombra/</link>
+      <pubDate>Sun, 22 Mar 2020 00:36:11 -0300</pubDate>
+      
+      <guid>/categories/luz-y-sombra/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

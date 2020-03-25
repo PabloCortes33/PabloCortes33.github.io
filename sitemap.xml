@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>/categories/</loc>
+    <lastmod>2020-03-24T19:58:44-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/distorcion/</loc>
+    <lastmod>2020-03-24T19:58:44-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/luz-dinamica-volumen/</loc>
+    <lastmod>2020-03-24T19:58:44-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2020-03-24T19:58:44-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/</loc>
+    <lastmod>2020-03-24T19:58:44-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/profundidad/</loc>
+    <lastmod>2020-03-24T19:58:25-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/hugo/</loc>
+    <lastmod>2020-03-24T16:05:05-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/tutorial_hugo/</loc>
+    <lastmod>2020-03-24T16:05:05-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/luz-y-sombra/</loc>
+    <lastmod>2020-03-22T00:36:11-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/textura/</loc>
+    <lastmod>2020-03-22T00:36:11-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/espacio/</loc>
+    <lastmod>2020-03-21T00:36:33-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/refraccion/</loc>
+    <lastmod>2020-03-20T00:37:23-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/about/</loc>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+  </url>
+  
+</urlset>

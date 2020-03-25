@@ -1,0 +1,27 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Luz Dinamica - Volumen - Portafolio - Pablo Cortés</title>
+    <link>/categories/luz-dinamica-volumen/</link>
+    <description>Recent content in Luz Dinamica - Volumen on Portafolio - Pablo Cortés</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 24 Mar 2020 19:58:44 -0300</lastBuildDate>
+    
+        <atom:link href="/categories/luz-dinamica-volumen/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Distorción</title>
+      <link>/posts/distorcion/</link>
+      <pubDate>Tue, 24 Mar 2020 19:58:44 -0300</pubDate>
+      
+      <guid>/posts/distorcion/</guid>
+      <description>Búsqueda de interacciones dinámicas entre el espacio y la luz.</description>
+    </item><item>
+      <title>Profundidad</title>
+      <link>/posts/profundidad/</link>
+      <pubDate>Tue, 24 Mar 2020 19:58:25 -0300</pubDate>
+      
+      <guid>/posts/profundidad/</guid>
+      <description>Búsqueda del volumen a tráves de mezcla de luces y distancias de intersección.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,34 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts - Portafolio - Pablo Cortés</title>
+    <link>/posts/</link>
+    <description>Recent content in Posts on Portafolio - Pablo Cortés</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 24 Mar 2020 19:58:44 -0300</lastBuildDate>
+    
+        <atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Distorción</title>
+      <link>/posts/distorcion/</link>
+      <pubDate>Tue, 24 Mar 2020 19:58:44 -0300</pubDate>
+      
+      <guid>/posts/distorcion/</guid>
+      <description>Búsqueda de interacciones dinámicas entre el espacio y la luz.</description>
+    </item><item>
+      <title>Profundidad</title>
+      <link>/posts/profundidad/</link>
+      <pubDate>Tue, 24 Mar 2020 19:58:25 -0300</pubDate>
+      
+      <guid>/posts/profundidad/</guid>
+      <description>Búsqueda del volumen a tráves de mezcla de luces y distancias de intersección.</description>
+    </item><item>
+      <title>Tutorial Hugo - Instalación &#43; Implementación de Tema</title>
+      <link>/posts/tutorial_hugo/</link>
+      <pubDate>Tue, 24 Mar 2020 16:05:05 -0300</pubDate>
+      
+      <guid>/posts/tutorial_hugo/</guid>
+      <description>Video tutorial de la instalación de componentes y pasos de instalación de temas personalizados</description>
+    </item>
+  </channel>
+</rss>
