@@ -9,13 +9,6 @@
         <atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Textura</title>
-      <link>/posts/textura/</link>
-      <pubDate>Sun, 22 Mar 2020 00:36:11 -0300</pubDate>
-      
-      <guid>/posts/textura/</guid>
-      <description>Producción de escalas de grises con papeles de distinto gramaje y opacidad.</description>
-    </item><item>
       <title>Espacio</title>
       <link>/posts/espacio/</link>
       <pubDate>Sat, 21 Mar 2020 00:36:33 -0300</pubDate>
