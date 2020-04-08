@@ -4,31 +4,31 @@
     <link>/posts/</link>
     <description>Recent content in Posts on Portafolio - Pablo Cortés</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 24 Mar 2020 19:58:44 -0300</lastBuildDate>
+    <lastBuildDate>Tue, 07 Apr 2020 23:08:58 -0400</lastBuildDate>
     
         <atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Software Creativo</title>
+      <link>/posts/software/</link>
+      <pubDate>Tue, 07 Apr 2020 23:08:58 -0400</pubDate>
+      
+      <guid>/posts/software/</guid>
+      <description></description>
+    </item><item>
+      <title>Referentes - Movilidad de Emergencia</title>
+      <link>/posts/referentes/</link>
+      <pubDate>Tue, 07 Apr 2020 23:01:34 -0400</pubDate>
+      
+      <guid>/posts/referentes/</guid>
+      <description>Fuentes usadas de referentes para proyecto de movilidad de emergencia.</description>
+    </item><item>
       <title>Luz Dinámica - Volumenes</title>
       <link>/posts/distorcion/</link>
       <pubDate>Tue, 24 Mar 2020 19:58:44 -0300</pubDate>
       
       <guid>/posts/distorcion/</guid>
       <description>Búsqueda de interacciones dinámicas entre el espacio y la luz.</description>
-    </item><item>
-      <title>Tutorial Hugo - Instalación &#43; Implementación de Tema</title>
-      <link>/posts/tutorial_hugo/</link>
-      <pubDate>Tue, 24 Mar 2020 16:05:05 -0300</pubDate>
-      
-      <guid>/posts/tutorial_hugo/</guid>
-      <description>Video tutorial de la instalación de componentes y pasos de instalación de temas personalizados</description>
-    </item><item>
-      <title>Textura</title>
-      <link>/posts/textura/</link>
-      <pubDate>Sun, 22 Mar 2020 00:36:11 -0300</pubDate>
-      
-      <guid>/posts/textura/</guid>
-      <description>Producción de escalas de grises con papeles de distinto gramaje y opacidad.</description>
     </item>
   </channel>
 </rss>

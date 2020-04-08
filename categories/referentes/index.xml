@@ -1,0 +1,20 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Referentes - Portafolio - Pablo Cortés</title>
+    <link>/categories/referentes/</link>
+    <description>Recent content in Referentes on Portafolio - Pablo Cortés</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 07 Apr 2020 23:01:34 -0400</lastBuildDate>
+    
+        <atom:link href="/categories/referentes/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Referentes - Movilidad de Emergencia</title>
+      <link>/posts/referentes/</link>
+      <pubDate>Tue, 07 Apr 2020 23:01:34 -0400</pubDate>
+      
+      <guid>/posts/referentes/</guid>
+      <description>Fuentes usadas de referentes para proyecto de movilidad de emergencia.</description>
+    </item>
+  </channel>
+</rss>

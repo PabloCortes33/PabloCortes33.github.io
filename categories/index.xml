@@ -4,30 +4,30 @@
     <link>/categories/</link>
     <description>Recent content in Categories on Portafolio - Pablo Cortés</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 24 Mar 2020 19:58:44 -0300</lastBuildDate>
+    <lastBuildDate>Tue, 07 Apr 2020 23:08:58 -0400</lastBuildDate>
     
         <atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Tutorial</title>
+      <link>/categories/tutorial/</link>
+      <pubDate>Tue, 07 Apr 2020 23:08:58 -0400</pubDate>
+      
+      <guid>/categories/tutorial/</guid>
+      <description></description>
+    </item><item>
+      <title>Referentes</title>
+      <link>/categories/referentes/</link>
+      <pubDate>Tue, 07 Apr 2020 23:01:34 -0400</pubDate>
+      
+      <guid>/categories/referentes/</guid>
+      <description></description>
+    </item><item>
       <title>Luz Dinamica - Volúmen</title>
       <link>/categories/luz-dinamica-vol%C3%BAmen/</link>
       <pubDate>Tue, 24 Mar 2020 19:58:44 -0300</pubDate>
       
       <guid>/categories/luz-dinamica-vol%C3%BAmen/</guid>
-      <description></description>
-    </item><item>
-      <title>Hugo</title>
-      <link>/categories/hugo/</link>
-      <pubDate>Tue, 24 Mar 2020 16:05:05 -0300</pubDate>
-      
-      <guid>/categories/hugo/</guid>
-      <description></description>
-    </item><item>
-      <title>Luz y Sombra</title>
-      <link>/categories/luz-y-sombra/</link>
-      <pubDate>Sun, 22 Mar 2020 00:36:11 -0300</pubDate>
-      
-      <guid>/categories/luz-y-sombra/</guid>
       <description></description>
     </item>
   </channel>
