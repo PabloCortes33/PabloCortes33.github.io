@@ -4,17 +4,31 @@
     <link>/posts/</link>
     <description>Recent content in Posts on Portafolio - Pablo Cortés</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 07 Apr 2020 23:08:58 -0400</lastBuildDate>
+    <lastBuildDate>Sun, 19 Apr 2020 13:37:03 -0400</lastBuildDate>
     
         <atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Refracción</title>
-      <link>/posts/refraccion/</link>
-      <pubDate>Fri, 20 Mar 2020 00:37:23 -0300</pubDate>
+      <title>Tutorial Hugo - Instalación &#43; Implementación de Tema</title>
+      <link>/posts/tutorial_hugo/</link>
+      <pubDate>Tue, 24 Mar 2020 16:05:05 -0300</pubDate>
       
-      <guid>/posts/refraccion/</guid>
-      <description>Cambios de dirección a traves de una variación de ángulo del receptor.</description>
+      <guid>/posts/tutorial_hugo/</guid>
+      <description>Video tutorial de la instalación de componentes y pasos de instalación de temas personalizados.</description>
+    </item><item>
+      <title>Textura</title>
+      <link>/posts/textura/</link>
+      <pubDate>Sun, 22 Mar 2020 00:36:11 -0300</pubDate>
+      
+      <guid>/posts/textura/</guid>
+      <description>Producción de escalas de grises con papeles de distinto gramaje y opacidad.</description>
+    </item><item>
+      <title>Espacio</title>
+      <link>/posts/espacio/</link>
+      <pubDate>Sat, 21 Mar 2020 00:36:33 -0300</pubDate>
+      
+      <guid>/posts/espacio/</guid>
+      <description>Genera espacios de luz a traves de diferencias de densidades del material.</description>
     </item>
   </channel>
 </rss>

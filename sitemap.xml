@@ -4,17 +4,42 @@
   
   <url>
     <loc>/categories/</loc>
-    <lastmod>2020-04-07T23:08:58-04:00</lastmod>
+    <lastmod>2020-04-19T13:37:03-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/movilidad-de-emergencia/</loc>
+    <lastmod>2020-04-19T13:37:03-04:00</lastmod>
   </url>
   
   <url>
     <loc>/</loc>
-    <lastmod>2020-04-07T23:08:58-04:00</lastmod>
+    <lastmod>2020-04-19T13:37:03-04:00</lastmod>
   </url>
   
   <url>
     <loc>/posts/</loc>
-    <lastmod>2020-04-07T23:08:58-04:00</lastmod>
+    <lastmod>2020-04-19T13:37:03-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/propuesta/</loc>
+    <lastmod>2020-04-19T13:37:03-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/investigacion/</loc>
+    <lastmod>2020-04-19T13:36:39-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/fusion360/</loc>
+    <lastmod>2020-04-19T13:19:03-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/tutoriales/</loc>
+    <lastmod>2020-04-19T13:19:03-04:00</lastmod>
   </url>
   
   <url>
@@ -23,17 +48,7 @@
   </url>
   
   <url>
-    <loc>/categories/tutorial/</loc>
-    <lastmod>2020-04-07T23:08:58-04:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/posts/referentes/</loc>
-    <lastmod>2020-04-07T23:01:34-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/categories/referentes/</loc>
     <lastmod>2020-04-07T23:01:34-04:00</lastmod>
   </url>
   
@@ -45,11 +60,6 @@
   <url>
     <loc>/posts/distorcion/</loc>
     <lastmod>2020-03-24T19:58:44-03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/categories/hugo/</loc>
-    <lastmod>2020-03-24T16:05:05-03:00</lastmod>
   </url>
   
   <url>
