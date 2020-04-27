@@ -9,6 +9,13 @@
         <atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Luz Dinámica - Volumenes</title>
+      <link>/posts/distorcion/</link>
+      <pubDate>Tue, 24 Mar 2020 19:58:44 -0300</pubDate>
+      
+      <guid>/posts/distorcion/</guid>
+      <description>Búsqueda de interacciones dinámicas entre el espacio y la luz.</description>
+    </item><item>
       <title>Tutorial Hugo - Instalación &#43; Implementación de Tema</title>
       <link>/posts/tutorial_hugo/</link>
       <pubDate>Tue, 24 Mar 2020 16:05:05 -0300</pubDate>
@@ -22,13 +29,6 @@
       
       <guid>/posts/textura/</guid>
       <description>Producción de escalas de grises con papeles de distinto gramaje y opacidad.</description>
-    </item><item>
-      <title>Espacio</title>
-      <link>/posts/espacio/</link>
-      <pubDate>Sat, 21 Mar 2020 00:36:33 -0300</pubDate>
-      
-      <guid>/posts/espacio/</guid>
-      <description>Genera espacios de luz a traves de diferencias de densidades del material.</description>
     </item>
   </channel>
 </rss>

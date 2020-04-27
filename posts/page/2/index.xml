@@ -9,7 +9,14 @@
         <atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Software Creativo</title>
+      <title>Fusion 360</title>
+      <link>/posts/fusion360/</link>
+      <pubDate>Sun, 19 Apr 2020 13:19:03 -0400</pubDate>
+      
+      <guid>/posts/fusion360/</guid>
+      <description>Tutorial de modelación de inmovilizador de muñeca.</description>
+    </item><item>
+      <title>Demo Adobe XD</title>
       <link>/posts/software/</link>
       <pubDate>Tue, 07 Apr 2020 23:08:58 -0400</pubDate>
       
@@ -22,13 +29,6 @@
       
       <guid>/posts/referentes/</guid>
       <description>Fuentes usadas de referentes para proyecto de movilidad de emergencia.</description>
-    </item><item>
-      <title>Luz Dinámica - Volumenes</title>
-      <link>/posts/distorcion/</link>
-      <pubDate>Tue, 24 Mar 2020 19:58:44 -0300</pubDate>
-      
-      <guid>/posts/distorcion/</guid>
-      <description>Búsqueda de interacciones dinámicas entre el espacio y la luz.</description>
     </item>
   </channel>
 </rss>

@@ -59,6 +59,296 @@
         </picture>
         
         <p>Fusion 360 es un software de autodesk usada para la modelación de objetos. Gracias a su estructura digital, permite el trabajo colectivo de modelación en 3D. Perfecto para el diseño de prototipos tanto funcionales como estéticos.</p>
+<p>Para esta demo construiremos un inmovilizador de muñeca personalizado.</p>
+<h2 id="paso-1-guías-de-superficie">Paso 1: Guías de superficie.</h2>
+<ul>
+<li>Primero tenemos 3 cortes transversales a un modelo de brazo previamente descargado, estos marcarían el plano de trabajo en el cual a vamos a modificar.</li>
+</ul>
+<p><img src="/posts/fusion360/img/1.jpg" alt="Logo"></p>
+<ul>
+<li>Para modificar lo mas fielmente las curvas que serán usadas para hacer la superficie seleccionamos &ldquo;section analisis&rdquo;.</li>
+</ul>
+<p><img src="/posts/fusion360/img/2.jpg" alt="Logo"></p>
+<p><img src="/posts/fusion360/img/3.jpg" alt="Logo"></p>
+<ul>
+<li>De esta manera podemos ver el corte justo en el plano que queremos hacer las guías.</li>
+</ul>
+<p><img src="/posts/fusion360/img/4.jpg" alt="Logo"></p>
+<ul>
+<li>Ahora podemos modificar los puntos de control de las curvas guías en los cortes correspondientes.</li>
+</ul>
+
+
+
+
+
+
+
+
+    
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+
+
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" crossorigin="anonymous"></script>
+
+
+
+<style>
+#slide-window {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    top: 0px;
+    left: 0px;
+}
+
+#slides-list {
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    margin: 0px;
+    padding: 0px;
+    -webkit-transform: translate3d(0px, 0px, 0px);
+    transform: translate3d(0px, 0px, 0px);
+    transition: all 0.66s ease;
+    -webkit-transition: all 0.66s ease;
+}
+
+.slide {
+    list-style: none;
+    position: relative;
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 300px;
+    background: #ccc;
+    text-align: center;
+    line-height: 100%;
+    background-size: cover;
+    background-position: 50% 50%;
+    color: #fff;
+    -webkit-transform: translate3d(0px, 0px, 0px);
+    -webkit-transform-style: preserve-3d;
+}
+
+.nav {
+    position: relative;
+    z-index: 9;
+    top: 45%;
+    cursor: pointer;
+    color: #fff;
+    opacity: 0.7;
+    transition: all 0.66s ease;
+    -webkit-transition: all 0.66s ease;
+}
+
+.nav:hover {
+    opacity: 1.0;
+}
+
+#left {
+    left: 3%;
+    float: left;
+}
+
+#right {
+    right: 3%;
+    float: right;
+}
+</style>
+
+
+<div id="slide-window">
+    <ol id="slides-list">
+                <li class="slide" style="background-image:url(/img/galeria/5.jpg);"></li>
+                <li class="slide" style="background-image:url(/img/galeria/6.jpg);"></li>
+                <li class="slide" style="background-image:url(/img/galeria/7.jpg);"></li>
+                <li class="slide" style="background-image:url(/img/galeria/8.jpg);"></li>
+                <li class="slide" style="background-image:url(/img/galeria/9.jpg);"></li>
+    </ol>
+    <span class="nav fa fa-chevron-left fa-3x" id="left"></span>
+    <span class="nav fa fa-chevron-right fa-3x" id="right"></span>
+</div>
+
+<script>
+sliderJQuery = jQuery.noConflict();
+sliderJQuery(function( $ ) {
+    $.global = new Object();
+    $.global.total = 0;
+
+    $(document).ready(function () {
+        var slideWindowWidth = $('#slide-window').width();
+        var slideCount = $('#slides-list li').length;
+        var totalSlidesWidth = slideCount * slideWindowWidth;
+
+        $.global.item = 0;
+        $.global.total = slideCount;
+
+        $('.slide').css('width', slideWindowWidth + 'px');
+        $('#slides-list').css('width', totalSlidesWidth + 'px');
+
+        $('#left').click(function () {
+            resetAutoSlide();
+            performSlide('back');
+        });
+
+        $('#right').click(function () {
+            resetAutoSlide();
+            performSlide('forward');
+        });
+
+    });
+
+    function performSlide(direction) {
+        if (direction == 'back') {
+            var nextSlideId = $.global.item - 1;
+        }
+        if (direction == 'forward') {
+            var nextSlideId = $.global.item + 1;
+        }
+
+        if (nextSlideId == -1) {
+             
+            moveCss($.global.total - 1);
+        } else if (nextSlideId == $.global.total) {
+             
+            moveCss(0);
+        } else {
+             
+            moveCss(nextSlideId);
+        }
+    }
+
+    function moveCss(nextSlideId) {
+        var slideWindowWidth = $('#slide-window').width();
+        var margin = slideWindowWidth * nextSlideId;
+
+        $('#slides-list').css('transform', 'translate3d(-' + margin + 'px,0px,0px)');
+
+        $.global.item = nextSlideId;
+    }
+
+    
+      var autoSlide = parseInt("0", 10);
+      var autoSlideInterval;
+      function resetAutoSlide(){
+        if(autoSlide) {
+          if(autoSlideInterval) {
+            clearInterval(autoSlideInterval);
+          }
+          autoSlideInterval = setInterval(function(){
+            performSlide('forward');
+          }, autoSlide)
+        }
+      }
+      resetAutoSlide();
+});
+</script>
+<ul>
+<li>Luego de tener los puntos de control lo mas fieles a la forma del brazo, podemos comenzar a unir cada curva.</li>
+</ul>
+<p><img src="/posts/fusion360/img/11.jpg" alt="Logo"></p>
+<h2 id="paso-2-creación-de-superficie">Paso 2: Creación de superficie.</h2>
+<ul>
+<li>
+<p>Ya que tenemos nuestras curvas terminadas, vamos a crear la superficie.</p>
+</li>
+<li>
+<p>Para eso, seleccionamos &ldquo;Create Form&rdquo;</p>
+</li>
+</ul>
+<p><img src="/posts/fusion360/img/12.jpg" alt="Logo"></p>
+<ul>
+<li>Luego seleccionamos &ldquo;Loft&rdquo;.</li>
+</ul>
+<p><img src="/posts/fusion360/img/13.jpg" alt="Logo"></p>
+<ul>
+<li>Ahora tenemos que seleccionar en orden las curvas trabajadas.</li>
+</ul>
+<p><img src="/posts/fusion360/img/14.jpg" alt="Logo"></p>
+<ul>
+<li>En el panel que aparece en la derecha, podemos cambiar la resolución de esta superficie al elegir cuantos cuadrantes separará esta misma.</li>
+</ul>
+<p><img src="/posts/fusion360/img/15.jpg" alt="Logo"></p>
+<ul>
+<li>Ya con la superficie con la resolución que queremos, tenemos que modificar la posición de los cuadrantes para que la superficie no intersecte con el modelo del brazo. Esto lo haremos con la opción &ldquo;Edit Form&rdquo;.</li>
+</ul>
+<p><img src="/posts/fusion360/img/16.jpg" alt="Logo"></p>
+<ul>
+<li>Ahora elegimos los cuadrantes o aristas que queremos modificar.</li>
+</ul>
+<p><img src="/posts/fusion360/img/17.jpg" alt="Logo"></p>
+<ul>
+<li>Ahora debemos hacer que el inmovilizador llegue hasta la muñeca para que sea funcional, entonces tomamos la arista del extremo y lo movemos presionando &ldquo;ALT&rdquo;.</li>
+</ul>
+<p><img src="/posts/fusion360/img/18.jpg" alt="Logo"></p>
+<ul>
+<li>Comenzamos a modificar nuevamente la forma para que quede lo mas fiel posible con la posición de la muñeca.</li>
+</ul>
+<p><img src="/posts/fusion360/img/19.jpg" alt="Logo"></p>
+<ul>
+<li>Ya que tenemos la forma, hay que generar el espacio por el que pasaría el pulgar. Para eso debemos usar la herramienta &ldquo;Select&rdquo;.</li>
+</ul>
+<p><img src="/posts/fusion360/img/21.jpg" alt="Logo"></p>
+<ul>
+<li>Seleccionamos y borramos el cuadrante mas cercano por el que pasa el pulgar y eliminamos la selección.</li>
+</ul>
+<p><img src="/posts/fusion360/img/22.jpg" alt="Logo"></p>
+<ul>
+<li>Modificamos los vertices del agujero y lo hacemos lo mas fiel a la forma de la mano.</li>
+</ul>
+<p><img src="/posts/fusion360/img/23.jpg" alt="Logo"></p>
+<ul>
+<li>Ahora, tenemos la superficie de la forma terminada para continuar con el siguiente paso. Seleccionamos &ldquo;Finish Form&rdquo;.</li>
+</ul>
+<p><img src="/posts/fusion360/img/24.jpg" alt="Logo"></p>
+<h2 id="paso-3-creación-de-volumen">Paso 3: Creación de Volumen.</h2>
+<ul>
+<li>Para la generación de grosor de la forma, tenemos nuestra superficie terminada.</li>
+</ul>
+<p><img src="/posts/fusion360/img/25.jpg" alt="Logo"></p>
+<ul>
+<li>Ahora seleccionamos &ldquo;Thicken&rdquo;.</li>
+</ul>
+<p><img src="/posts/fusion360/img/26.jpg" alt="Logo"></p>
+<ul>
+<li>Se abrirá un menu donde podemos elegir el grosor que queremos para nuestra figura.</li>
+</ul>
+<p><img src="/posts/fusion360/img/27.jpg" alt="Logo"></p>
+<ul>
+<li>Digitamos o arrastramos hacia el grosor que queremos para nuestro objeto.</li>
+</ul>
+<p><img src="/posts/fusion360/img/28.jpg" alt="Logo"></p>
+<ul>
+<li>Seleccionamos &ldquo;OK&rdquo;, y tenemos nuestro objeto con el grosor que le dimos.</li>
+</ul>
+<p><img src="/posts/fusion360/img/29.jpg" alt="Logo"></p>
+<ul>
+<li>Ahora, queremos que nuestro inmovilizador no tenga esquinas que puedan causar irritaciones, para eso, seleccionamos la opción &ldquo;Fillet&rdquo;.</li>
+</ul>
+<p><img src="/posts/fusion360/img/30.jpg" alt="Logo"></p>
+<ul>
+<li>Luego seleccionamos el borde que queremos suavizar.</li>
+</ul>
+<p><img src="/posts/fusion360/img/31.jpg" alt="Logo"></p>
+<ul>
+<li>Digitamos el valor que deseamos y seleccionamos &ldquo;OK&rdquo;.</li>
+</ul>
+<p><img src="/posts/fusion360/img/32.jpg" alt="Logo"></p>
+<ul>
+<li>Con esto damos por terminado nuestro modelo de un inmovilizador de muñeca en Fusion 360.</li>
+</ul>
+<div>
+
+   
+    <iframe src="https://myhub.autodesk360.com/ue2b29918/shares/public/SH56a43QTfd62c1cd968cc6fe28ccfc1faca?mode=embed" width="100%" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
+
+
+</div>
 
       </article>
       
@@ -78,7 +368,7 @@
   </div>
   
   <article class="card-body">
-    <h2 class="card-title">Software Creativo</h2>
+    <h2 class="card-title">Demo Adobe XD</h2>
     <p class="card-text">Tutorial maqueta de aplicacion para smartphones.</p>
     <div class="card-subtext muted-text">
       <p>Posted <time datetime="2020-04-07 47:00">Apr 7, 2020</time></p>
