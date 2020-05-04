@@ -4,11 +4,18 @@
     <link>/posts/</link>
     <description>Recent content in Posts on Portafolio - Pablo Cortés</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 19 Apr 2020 13:37:03 -0400</lastBuildDate>
+    <lastBuildDate>Sun, 03 May 2020 14:02:11 -0400</lastBuildDate>
     
         <atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Fusion 360 &#43; Grasshopper = Voronoi</title>
+      <link>/posts/voronoi/</link>
+      <pubDate>Sun, 19 Apr 2020 13:19:04 -0400</pubDate>
+      
+      <guid>/posts/voronoi/</guid>
+      <description></description>
+    </item><item>
       <title>Fusion 360</title>
       <link>/posts/fusion360/</link>
       <pubDate>Sun, 19 Apr 2020 13:19:03 -0400</pubDate>
@@ -22,13 +29,6 @@
       
       <guid>/posts/software/</guid>
       <description>Tutorial maqueta de aplicacion para smartphones.</description>
-    </item><item>
-      <title>Movilidades de Emergencia - COVID-19</title>
-      <link>/posts/referentes/</link>
-      <pubDate>Tue, 07 Apr 2020 23:01:34 -0400</pubDate>
-      
-      <guid>/posts/referentes/</guid>
-      <description>Fuentes usadas de referentes para proyecto de movilidad de emergencia.</description>
     </item>
   </channel>
 </rss>

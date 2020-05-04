@@ -1,0 +1,27 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Software Demos - Portafolio - Pablo Cortés</title>
+    <link>/categories/software-demos/</link>
+    <description>Recent content in Software Demos on Portafolio - Pablo Cortés</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 03 May 2020 14:02:11 -0400</lastBuildDate>
+    
+        <atom:link href="/categories/software-demos/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Demo Adobe XD</title>
+      <link>/posts/software/</link>
+      <pubDate>Tue, 07 Apr 2020 23:08:58 -0400</pubDate>
+      
+      <guid>/posts/software/</guid>
+      <description>Tutorial maqueta de aplicacion para smartphones.</description>
+    </item><item>
+      <title>Tutorial Hugo - Instalación &#43; Implementación de Tema</title>
+      <link>/posts/tutorial_hugo/</link>
+      <pubDate>Tue, 24 Mar 2020 16:05:05 -0300</pubDate>
+      
+      <guid>/posts/tutorial_hugo/</guid>
+      <description>Video tutorial de la instalación de componentes y pasos de instalación de temas personalizados.</description>
+    </item>
+  </channel>
+</rss>
