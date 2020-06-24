@@ -1,34 +1,78 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories - Portafolio - Pablo Cortés</title>
-    <link>/categories/</link>
-    <description>Recent content in Categories on Portafolio - Pablo Cortés</description>
+    <title>Categories on Liva | Personal blog template</title>
+    <link>https://examplesite.com/categories/</link>
+    <description>Recent content in Categories on Liva | Personal blog template</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 03 May 2020 14:02:11 -0400</lastBuildDate>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 29 Oct 2019 10:07:47 +0600</lastBuildDate>
     
-        <atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://examplesite.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
-      <title>Software Demos</title>
-      <link>/categories/software-demos/</link>
-      <pubDate>Sun, 03 May 2020 14:02:11 -0400</pubDate>
+      <title>Android And Gmaing</title>
+      <link>https://examplesite.com/categories/android-and-gmaing/</link>
+      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
       
-      <guid>/categories/software-demos/</guid>
-      <description></description>
-    </item><item>
-      <title>Movilidad de Emergencia</title>
-      <link>/categories/movilidad-de-emergencia/</link>
-      <pubDate>Sun, 19 Apr 2020 13:37:03 -0400</pubDate>
-      
-      <guid>/categories/movilidad-de-emergencia/</guid>
-      <description></description>
-    </item><item>
-      <title>Luz Dinamica - Volúmen</title>
-      <link>/categories/luz-dinamica-vol%C3%BAmen/</link>
-      <pubDate>Tue, 24 Mar 2020 19:58:44 -0300</pubDate>
-      
-      <guid>/categories/luz-dinamica-vol%C3%BAmen/</guid>
+      <guid>https://examplesite.com/categories/android-and-gmaing/</guid>
       <description></description>
     </item>
+    
+    <item>
+      <title>Go Language</title>
+      <link>https://examplesite.com/categories/go-language/</link>
+      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
+      
+      <guid>https://examplesite.com/categories/go-language/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>HTML</title>
+      <link>https://examplesite.com/categories/html/</link>
+      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
+      
+      <guid>https://examplesite.com/categories/html/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>HTML &amp; CSS</title>
+      <link>https://examplesite.com/categories/html-css/</link>
+      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
+      
+      <guid>https://examplesite.com/categories/html-css/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Programming Language</title>
+      <link>https://examplesite.com/categories/programming-language/</link>
+      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
+      
+      <guid>https://examplesite.com/categories/programming-language/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Python</title>
+      <link>https://examplesite.com/categories/python/</link>
+      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
+      
+      <guid>https://examplesite.com/categories/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Web Design</title>
+      <link>https://examplesite.com/categories/web-design/</link>
+      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
+      
+      <guid>https://examplesite.com/categories/web-design/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

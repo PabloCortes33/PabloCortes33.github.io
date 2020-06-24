@@ -3,106 +3,168 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/categories/</loc>
-    <lastmod>2020-05-03T14:02:11-04:00</lastmod>
+    <loc>https://examplesite.com/about/</loc>
+    <lastmod>2019-10-29T13:49:23+06:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/drone/</loc>
-    <lastmod>2020-05-03T14:02:11-04:00</lastmod>
+    <loc>https://examplesite.com/blog/</loc>
+    <lastmod>2019-10-29T13:49:23+06:00</lastmod>
   </url>
   
   <url>
-    <loc>/</loc>
-    <lastmod>2020-05-03T14:02:11-04:00</lastmod>
+    <loc>https://examplesite.com/contact/</loc>
+    <lastmod>2019-10-29T13:49:23+06:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/</loc>
-    <lastmod>2020-05-03T14:02:11-04:00</lastmod>
+    <loc>https://examplesite.com/</loc>
+    <lastmod>2019-10-29T13:49:23+06:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/software-demos/</loc>
-    <lastmod>2020-05-03T14:02:11-04:00</lastmod>
+    <loc>https://examplesite.com/search/</loc>
+    <lastmod>2019-10-29T13:49:23+06:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/movilidad-de-emergencia/</loc>
-    <lastmod>2020-04-19T13:37:03-04:00</lastmod>
+    <loc>https://examplesite.com/categories/android-and-gmaing/</loc>
+    <lastmod>2019-10-29T10:07:47+06:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/propuesta/</loc>
-    <lastmod>2020-04-19T13:37:03-04:00</lastmod>
+    <loc>https://examplesite.com/categories/</loc>
+    <lastmod>2019-10-29T10:07:47+06:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/investigacion/</loc>
-    <lastmod>2020-04-19T13:36:39-04:00</lastmod>
+    <loc>https://examplesite.com/tags/game/</loc>
+    <lastmod>2019-10-29T10:07:47+06:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/voronoi/</loc>
-    <lastmod>2020-04-19T13:19:04-04:00</lastmod>
+    <loc>https://examplesite.com/categories/go-language/</loc>
+    <lastmod>2019-10-29T10:07:47+06:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/fusion360/</loc>
-    <lastmod>2020-04-19T13:19:03-04:00</lastmod>
+    <loc>https://examplesite.com/blog/post-1/</loc>
+    <lastmod>2019-10-29T10:07:47+06:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/software/</loc>
-    <lastmod>2020-04-07T23:08:58-04:00</lastmod>
+    <loc>https://examplesite.com/blog/post-10/</loc>
+    <lastmod>2019-10-29T10:07:47+06:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/referentes/</loc>
-    <lastmod>2020-04-07T23:01:34-04:00</lastmod>
+    <loc>https://examplesite.com/blog/post-11/</loc>
+    <lastmod>2019-10-29T10:07:47+06:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/luz-dinamica-vol%C3%BAmen/</loc>
-    <lastmod>2020-03-24T19:58:44-03:00</lastmod>
+    <loc>https://examplesite.com/blog/post-12/</loc>
+    <lastmod>2019-10-29T10:07:47+06:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/distorcion/</loc>
-    <lastmod>2020-03-24T19:58:44-03:00</lastmod>
+    <loc>https://examplesite.com/blog/post-13/</loc>
+    <lastmod>2019-10-29T10:07:47+06:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/tutorial_hugo/</loc>
-    <lastmod>2020-03-24T16:05:05-03:00</lastmod>
+    <loc>https://examplesite.com/blog/post-2/</loc>
+    <lastmod>2019-10-29T10:07:47+06:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/luz-y-sombra/</loc>
-    <lastmod>2020-03-22T00:36:11-03:00</lastmod>
+    <loc>https://examplesite.com/blog/post-3/</loc>
+    <lastmod>2019-10-29T10:07:47+06:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/textura/</loc>
-    <lastmod>2020-03-22T00:36:11-03:00</lastmod>
+    <loc>https://examplesite.com/blog/post-4/</loc>
+    <lastmod>2019-10-29T10:07:47+06:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/espacio/</loc>
-    <lastmod>2020-03-21T00:36:33-03:00</lastmod>
+    <loc>https://examplesite.com/blog/post-5/</loc>
+    <lastmod>2019-10-29T10:07:47+06:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/refraccion/</loc>
-    <lastmod>2020-03-20T00:37:23-03:00</lastmod>
+    <loc>https://examplesite.com/blog/post-6/</loc>
+    <lastmod>2019-10-29T10:07:47+06:00</lastmod>
   </url>
   
   <url>
-    <loc>/about/</loc>
+    <loc>https://examplesite.com/blog/post-7/</loc>
+    <lastmod>2019-10-29T10:07:47+06:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/</loc>
+    <loc>https://examplesite.com/blog/post-8/</loc>
+    <lastmod>2019-10-29T10:07:47+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://examplesite.com/blog/post-9/</loc>
+    <lastmod>2019-10-29T10:07:47+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://examplesite.com/tags/html/</loc>
+    <lastmod>2019-10-29T10:07:47+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://examplesite.com/categories/html/</loc>
+    <lastmod>2019-10-29T10:07:47+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://examplesite.com/categories/html-css/</loc>
+    <lastmod>2019-10-29T10:07:47+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://examplesite.com/tags/new/</loc>
+    <lastmod>2019-10-29T10:07:47+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://examplesite.com/tags/photos/</loc>
+    <lastmod>2019-10-29T10:07:47+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://examplesite.com/categories/programming-language/</loc>
+    <lastmod>2019-10-29T10:07:47+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://examplesite.com/tags/python/</loc>
+    <lastmod>2019-10-29T10:07:47+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://examplesite.com/categories/python/</loc>
+    <lastmod>2019-10-29T10:07:47+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://examplesite.com/tags/react/</loc>
+    <lastmod>2019-10-29T10:07:47+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://examplesite.com/tags/</loc>
+    <lastmod>2019-10-29T10:07:47+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://examplesite.com/categories/web-design/</loc>
+    <lastmod>2019-10-29T10:07:47+06:00</lastmod>
   </url>
   
 </urlset>
