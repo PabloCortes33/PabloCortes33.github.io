@@ -2,7 +2,7 @@
 <html lang="en-us">
 <head><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<title>Rizoma Personal</title>
+<title>Electronic Paint Sensor</title>
 <meta name="description" content="Describe your website">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="all,follow">
@@ -106,13 +106,70 @@
   <div class="row">
     <div class="col-lg-8">
       <div class="content-column-content">
-         <h1>Rizoma Personal</h1>
-         <p>Mapa conceptual basada en la filosofía Rizomática.</p>
-<p>Proyecto creado el concepto de la filosofía rizomática pensada por Gilles Deleuze y Félix Guattari en el libro &ldquo;Capitalismo y Ezquisofrenia&rdquo;.</p>
-<p><img src="/img/rizoma/diagrama.gif" alt="logo"></p>
-<h3 id="resultado">Resultado</h3>
-<p>El resultado del diagrama se basa en como entiendo la creatividad como persona, al ir construyendo el mapa fui conectando conceptos en los cuales no pensaba que basaba tanto mi pensamiento creativo.</p>
-<p><img src="/img/rizoma/diagrama.jpg" alt="logo"></p>
+         <h1>Electronic Paint Sensor</h1>
+         <p>Prueba Sensor DIY Electronic Paint</p>
+<h3 id="proceso">Proceso.</h3>
+<ul>
+<li>Extracción del centro de lápices 9B, ya que tienen una mayor concentración de grafito.</li>
+</ul>
+<p><img src="/img/electpaint/IMG_8349.jpg" alt="logo"></p>
+<ul>
+<li>Mezcla con pintura de acrilico y pintado sobre una hoja de papel.</li>
+</ul>
+<p><img src="/img/electpaint/IMG_8346.jpg" alt="logo"></p>
+<ul>
+<li>Conexiones con protoboard y arduino.</li>
+</ul>
+<p><img src="/img/electpaint/IMG_8350.jpg" alt="logo"></p>
+<ul>
+<li>Finalmente conseguimos el sensor con pintura conductiva.</li>
+</ul>
+<p><img src="/img/electpaint/IMG_8352.jpg" alt="logo"></p>
+<h3 id="funcionamiento">Funcionamiento.</h3>
+<ul>
+<li>Tenemos el sensor construido.</li>
+</ul>
+<p><img src="/img/electpaint/IMG_8355.jpg" alt="logo"></p>
+<ul>
+<li>Generamos el código.</li>
+</ul>
+<pre><code>
+
+// capacitive sensing includes
+#include &lt;CapacitiveSensor.h&gt;
+
+// capacitive sensing constant
+CapacitiveSensor sensor = CapacitiveSensor(4,2);  // 1M resistor between pins 4 &amp; 2, pin 2 is sensor pin
+
+void setup() {
+  Serial.begin(9600);
+}
+
+void loop() {
+  long measurement =  sensor.capacitiveSensor(30);
+  
+  Serial.println(measurement);
+  delay(10);
+}
+
+</code></pre><p><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<ul>
+<li>Vemos los resultados en el monitor serial al acercar nuestra mano.</li>
+</ul>
+<ul>
+<li>Cuando vemos los valores caer significa que nuestra mano esta cerca del sensor, aun así debe ser una proximidad muy cercana para que lo logre detectar.</li>
+</ul>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/NwyMwCrFGRw" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+<p><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<h3 id="demo">Demo.</h3>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/DcLrzItZ020" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
          
       </div>
     </div>

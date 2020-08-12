@@ -6,10 +6,28 @@
     <description>Recent content on Pablo Cortés</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 04 Jul 2020 18:25:22 +0530</lastBuildDate>
+    <lastBuildDate>Tue, 28 Jul 2020 18:25:22 +0530</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Electronic Paint Sensor</title>
+      <link>/portfolio/work6/</link>
+      <pubDate>Tue, 28 Jul 2020 18:25:22 +0530</pubDate>
+      
+      <guid>/portfolio/work6/</guid>
+      <description>&lt;p&gt;Prueba Sensor DIY Electronic Paint&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Faceless - Proyecto MIDTERM</title>
+      <link>/portfolio/work5/</link>
+      <pubDate>Mon, 27 Jul 2020 18:25:22 +0530</pubDate>
+      
+      <guid>/portfolio/work5/</guid>
+      <description>&lt;p&gt;MIDTERM de proyecto colaborativo.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>DIY Push Button</title>
